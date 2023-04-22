@@ -16,9 +16,11 @@ k = set(a)
 for i in k:
     set_1.add(i) 
 b = [int(x) for x in input().split()] 
-k1 = set(b) for i in k1:
+k1 = set(b) 
+for i in k1:
     set_2.add(i) 
 lok = set_1 & set_2 
 kool = list(lok) 
-kool.sort() for i in kool: 
+kool.sort() 
+for i in kool: 
     print(i, end=' ')
